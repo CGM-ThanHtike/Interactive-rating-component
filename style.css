@@ -71,18 +71,18 @@ main {
   width: 3.25rem;
   height: 3.25rem;
   line-height: 1;
-  padding: 1rem;
   border-radius: 50%;
   background: var(--clr-neutral-400);
-  aspect-ratio: 1/1;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .card .card-front .rate:hover {
   background: var(--clr-primary);
   color: var(--clr-neutral-100);
+  transition: all 0.5s;
 }
 
 .card .card-front .rate.active {
@@ -113,11 +113,13 @@ main {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .btn:hover {
   background: var(--clr-neutral-100);
   color: var(--clr-primary);
+  transition: all 0.5s;
 }
 
 .card .card-back .thank-you-img {
@@ -138,6 +140,8 @@ main {
 
 /* Card Animation with perspective */
 .card-container {
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
   perspective: 1200px;
 }
 
