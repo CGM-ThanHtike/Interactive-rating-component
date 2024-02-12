@@ -37,12 +37,18 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click to check my solution at Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-perfect-solution-GI-Di54Mr7)
-- Live Site URL: [Click to check the live site](https://cgm-thanhtike.github.io/Stats-preview-card-component/)
+- Solution URL: [Click to check my solution at Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-with-3d-animation-and-vanilla-js-0TJZTmr77j)
+- Live Site URL: [Click to check the live site](https://cgm-thanhtike.github.io/Interactive-rating-component/)
 
 ## My process
 
-- I'm quite comfortable with this challenge. I first analyze both the desktop and mobile designs and then decide on the best and simplest approach to achieve the same design. Here is what I have come up with.
+- I'm focusing on practicing 3D animation, particularly the creation of card rotation animations with a 3D perspective in this challenge.
+
+- Additionally, I've implemented error handling using JavaScript:
+
+- Now, if you attempt to submit without selecting a rating, an error message will be displayed.
+
+- Also, if you inspect and modify the rating value to be less than 0 or greater than 5, an error message will appear.
 
 ### Built with
 
